@@ -1,0 +1,16 @@
+# Hermes profile distribution manifest.
+name: va
+version: 1.0.0
+description: >-
+  Coaching Hive VA for online coaches. Owns client onboarding, check-in replies, missed check-in nudges, renewals, testimonial asks and content repurposing. Draft-only.
+hermes_requires: ">=0.20.0"
+author: Coaching Hive
+license: MIT
+# Only these paths are installed and replaced on update. Memories, sessions,
+# keys, .env and skills the coach makes stay untouched.
+distribution_owned:
+  - distribution.yaml
+  - profile.yaml
+  - SOUL.md
+  - config.yaml
+  - skills/coaching-hive

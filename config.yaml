@@ -1,0 +1,9 @@
+# Safe defaults: the coach approves memory and skill changes.
+memory:
+  write_approval: true
+skills:
+  write_approval: true
+delegation:
+  subagent_auto_approve: false
+terminal:
+  home_mode: profile
